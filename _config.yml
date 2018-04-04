@@ -260,3 +260,21 @@ defaults:
       comments: # true
       share: true
       related: true
+# _learnings
+  - scope:
+      path: ""
+      type: learnings
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
+
+
+# Collections
+collections:
+  learnings:
+    output: true
+    permalink: /:collection/:path/
